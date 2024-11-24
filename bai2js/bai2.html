@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2 Tính diện tích</title>
+    <script src="/Bai2is/Bai2.js"></script>
+    <link rel="stylesheet" href="/Bai2is/Bai2.css">
+</head>
+<body>
+    <h1>TÍNH DIỆN TÍCH</h1>
+    <div class="HCN">
+        <p>HÌNH CHỮ NHẬT</p>
+        <label for="NhapD">Nhập chiều dài hình chữ nhật:</label><br>
+        <input type="number" id="NhapD" placeholder="Nhập chiều dài"><br>
+        <label for="NhapR">Nhập chiều rộng hình chữ nhât:</label><br>
+        <input type="number" id="NhapR" placeholder="Nhập chiều rộng"><br>  
+        <div class="DTHCN" >
+            <label for="ketquahcn">Diện tích hình chữ nhật:</label><br>
+            <input type="number" id="ketquahcn" placeholder="Kết quả diện tích" readonly>
+        </div> 
+        <div class="hcn">
+            <button type="button" onclick="calculateRectangleArea()">Tính diện tích</button>
+        </div>
+    </div>
+    <div class="TG">
+        <p>TAM GIÁC</p>
+        <label for="NhapĐ">Nhập cạnh đáy hình tam giác:</label><br>
+        <input type="number" id="Nhapday" placeholder="Nhập cạnh đáy"><br>
+        <label for="NhapC">Nhập chiều cao của tam giác:</label><br>
+        <input type="number" id="Nhapcao" placeholder="Nhập chiều cao"><br>  
+        <div class="DTTG" >
+            <label for="ketquatg">Diện tích tam giác:</label><br>
+            <input type="number" id="ketquatg" placeholder="Kết quả diện tích" readonly>
+        </div> 
+        <div class="tg">
+            <button type="button" onclick="calculateTriangleArea()">Tính diện tích</button>
+        </div>
+    </div>
+    <div class="HV">
+        <p>HÌNH VUÔNG</p>
+        <label for="Nhapcanh">Nhập cạnh đáy hình vuông:</label><br>
+        <input type="number" id="Nhapcanh" placeholder="Nhập cạnh "><br>
+        <div class="DTTG" >
+            <label for="ketquahv">Diện tích hình vuông:</label><br>
+            <input type="number" id="ketquahv" placeholder="Kết quả diện tích" readonly>
+        </div> 
+        <div class="hv">
+            <button type="button" onclick="calculateSquareArea()">Tính diện tích</button>
+        </div>
+    </div>
+</body>
+</html>
